@@ -1,22 +1,267 @@
-.App {
-  text-align: center;
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    padding: 8px 0px;
+    background: white;
+    z-index: 99;
+}
+    
+
+.titles{
+   text-decoration: none;
+   margin-right : 27px;
 }
 
-.App-logo {
-  height: 40vmin;
+.down-nav{
+    text-align: center ;
+    padding-top: 70px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 30px;
+    color: RGB(30, 166, 146);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.paragraphs{
+    margin: 0 auto;
+    display: flex;
+    width: 66%;
+   color: RGB(133, 138, 142);
+   
+
 }
 
-.App-link {
-  color: #09d3ac;
+.imgs{
+    height: 200px;
+    
+    
 }
+.cards{
+    display: flex;
+    margin: 0 auto;
+    width: 65%;
+    color: #eafffb;
+    font-family: 'Montserrat', sans-serif;
+   
+
+}
+    
+
+.green-card{
+    background-color: #00ccb1;
+    padding: 13px;
+    border-radius: 3%;
+    overflow: hidden;
+    width: 69%;
+    margin: 10px;
+   
+
+   
+}
+
+.blue-card{
+    background-color: #3e83e0;
+    margin: 10px;
+    padding: 13px;
+    border-radius: 3%;
+    overflow: hidden;
+    width: 69%;
+    
+}
+
+.btns{
+    height: 38px;
+    border-radius: 7px;
+   
+    /* text-align: center; */
+    padding-left: 6%;
+    min-width: 45%;
+}
+
+
+.about{
+    color: blue;
+}
+
+.links{
+    list-style: none;
+    
+}
+.ss{
+    display: flex;
+}
+
+.brands{
+    display: flex;
+    width: 61%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+.company{
+    width: 22%;
+}
+h1{
+    font-size: 22px;
+    color: #23af95;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.lisst{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+svg{
+    opacity: .3;
+    transition: all .2s ease-in;
+}
+
+svg:hover{
+    
+    opacity: 1;
+    fill: #00ccb1;
+}
+.big-star{
+    position: absolute;
+    top: 40%;
+}
+.health-care{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #d9f7f7;
+    overflow: hidden;
+    margin-bottom: 6%;
+}
+.informations{
+
+    padding-left: 5%;
+    padding-top: 3%;
+    width: 33%;
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 4%;
+    width: 47%;
+    margin-bottom: 2%;
+}
+.tag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 11px;
+    padding: 20px;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    background: white;
+    color: #4eb3a1;
+
+}
+.offices{
+    width: 42%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.countrys{
+    display: flex;
+    flex-wrap: wrap;
+    width: 74%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.title-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.all-btns{
+    background: #1662c6;
+    border-radius: 4px;
+    font-size: 12px;
+    border: none;
+    color: white;
+    height: 30px;
+    padding: 0px 14px;
+}
+
+.img-countrys{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+h3{
+    margin: 0;
+    font-size: 17px;
+    color: #777372;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.list-countrys:hover{
+    box-shadow: 10px 10px 99px -32px rgba(0,0,0,0.75);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.list-countrys{
+    margin: 1%;
+}
+
+.para{
+    color: #6a808b;
+    font-size: 13px
+    
+}
+
+.platform{
+        font-size: 33px;
+}
+
+
+.hrefs{
+    margin: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+
+.under{
+    font-size: 13px;
+    color: #b4bbc3 ;
+}
+
+.main-footer{
+    text-align: center;
+    border-top: 1px solid darkgrey;
+    margin-top: 6%;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.down{
+    text-decoration: none;
+}
+
